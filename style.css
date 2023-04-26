@@ -1,13 +1,13 @@
-*{
+  *{
     margin: 0;
     padding: 0;
-}
+  }
 
-body{
+  body{
     background-color: #003B5D;
-}
+  }
 
-nav {
+  nav {
     background-color: #2E2E2E;
     width: 100%;
     height: 60px;
@@ -64,16 +64,16 @@ nav {
     margin-left: auto;
   }
 
-#bx {
+  #bx {
     color: #3562FF;
-}
+  }
 
-#divBusca{
+  #divBusca{
     background-color:#2E2E2E;
     /* border:solid 1px; */
     border-radius:20px;
     width: 260px;
-    height: 35px;
+    height: 40px;
     display: flex;
     margin-left: 70px;
     margin-top: 30px;
@@ -84,12 +84,14 @@ nav {
     background-color:transparent;
     padding-left:5px;
     font-size:18px;
-    border:none;
     height:32px;
     width:260px;
     color: white;
     margin-left: 10px;
-    margin-top: 2px;
+    margin-top: 5px;
+    border: 0 none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
   }
 
   #btnBusca {
@@ -109,7 +111,7 @@ nav {
 
   .barra {
     display: flexbox;
-    position: fixed;
+    /* position: fixed; */
     top: 50px;
     left: 0;
     right: 0;
@@ -117,10 +119,11 @@ nav {
   }
 
 
-  .primavera {
+  /* .primavera {
     display: flex;
-    margin-top: 75px;
+    margin-top: 30px;
     margin-left: 90px;
+    
   }
 
   #primavera {
@@ -128,7 +131,7 @@ nav {
     width: 920px;
     height: 600px;
 
-  }
+  } */
 
   #eco {
     display: flex;
@@ -138,12 +141,130 @@ nav {
     margin-left: -900px;
   } 
 
-  .lista-de-games {
+  .flex-container-games {
     color: #fff;
     font-family: Arial, sans-serif;
     display: flex;
+    height: 100%;
+    width: 100%;
+   
   }
 
 .cs-go {
+  display: flex;
+  margin-top: -580px;
+  margin-left: 1100px;
+  width: 210px;
+  height: 100px;
+  
+ 
+}
 
+.cs-text{
+  display: flex;
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 10px;
+  
+}
+
+#cs-image {
+  display: flex;
+  width: 70px;
+  height: 105px;
+  border-radius: 15% ;
+}
+
+.rl {
+  display: flex;
+  margin-top: -910px;
+  margin-left: -240px;
+  width: 210px;
+  height: 100px;
+ 
+ 
+}
+
+.rl-text{
+  display: flex;
+  color: #fff;
+  
+}
+
+#rl-image {
+  display: flex;
+  width: 75px;
+  height: 95px;
+  border-radius: 15% ;
+}
+
+.vava {
+  display: flex;
+  margin-top: -660px;
+  margin-left: -258px;
+  width: 210px;
+  height: 95px;
+ 
+ 
+}
+
+.vava-text{
+  display: flex;
+  color: #fff;
+  margin-top: 10px;
+}
+
+#vava-image {
+  display: flex;
+  width: 75px;
+  height: 95px;
+  border-radius: 15% ;
+}
+
+.gta {
+  display: flex;
+  /* margin-top: -580px;
+  margin-left: 1100px; */
+  width: 210px;
+  height: 95px;
+  justify-content: flex-end;
+  align-self: center;
+ 
+}
+
+.gta-text{
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+}
+
+#gta-image {
+  display: flex;
+  width: 75px;
+  height: 95px;
+  border-radius: 15% ;
+}
+
+.mine-go {
+  display: flex;
+  /* margin-top: -580px;
+  margin-left: 1100px; */
+  width: 210px;
+  height: 95px;
+  justify-content: flex-end;
+  align-self: center;
+ 
+}
+
+.mine-text{
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+}
+
+#mine-image {
+  display: flex;
+  width: 75px;
+  height: 95px;
+  border-radius: 15% ;
 }
