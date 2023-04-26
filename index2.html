@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+</head>
+
+<body>
+
+
+
+<!-- logo -->
+    <nav class="header">
+<img src="logep.png" class="logo">
+
+<div>
+
+<!-- navegar header -->
+    <div class="caua">
+     <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#news">SOBRE</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">CATEGORIAS</a>
+          <div class="dropdown-content">
+            <a href="#">FPS</a>
+            <a href="#">Ação e Aventura.</a>
+            <a href="#">RPG</a>
+            <a href="#">Casual</a>
+            <li><a href="#news">SUPORTE</a></li>
+          </div>
+        </li>
+      </ul>
+    </div>
+<!-- botão entrar -->
+    <div class="log">
+        <a href="log1.html"><button class="btn"> ENTRAR
+        </button></div></a>
+
+</nav>
+
+
+<div class="car">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="fifa.jpeg" alt="Foto 01" class="img5">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="fortinte (1).jpg" alt="Foto 02" class="img5">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="valorant.jpg" alt="Foto 03" class="img5">
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    
+   
+     
+    </main>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</div>
+    
+
+
+</body>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #003B5D;
+
+}
+
+.header{
+    background-color: #2E2E2E;
+    height: 60px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+ }
+
+
+  .logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 6px;
+    margin-top: 5px;
+  }
+
+/* NAVEGAR DO HEADER*/
+
+  .caua{
+    margin:0 auto;
+    margin-left: 80px;
+    margin-top: -54px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: dodgerblue;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* BOTÃO ENTAR*/
+
+.btn {
+ width: 6.5em;
+ height: 2.3em;
+ margin: 0.5em;
+ background: dodgerblue;
+ color: white;
+ border: none;
+ border-radius: 0.625em;
+ font-size: 20px;
+ font-weight: bold;
+ cursor: pointer;
+ position: relative;
+ z-index: 1;
+ overflow: hidden;
+}
+
+button:hover {
+ color: black;
+}
+
+button:after {
+ content: "";
+ background: white;
+ position: absolute;
+ z-index: -1;
+ left: -20%;
+ right: -20%;
+ top: 0;
+ bottom: 0;
+ transform: skewX(-45deg) scale(0, 1);
+ transition: all 0.5s;
+}
+
+button:hover:after {
+ transform: skewX(-45deg) scale(1, 1);
+ -webkit-transition: all 0.5s;
+ transition: all 0.5s;
+}
+   
+
+
+  
+.log{
+    margin-left: 1130px;
+    margin-top: -55px;
+}
+
+
+/* CARROSEL */
+
+
+.all{
+    margin-left: 200px;
+    margin-top: -50px;
+ }
+
+
+ 
+.car{
+    margin-left: -350px;
+    margin-top: -50px;
+  
+    
+  
+}
+
+
+
+span {
+  font-size: x-large;
+}
+
+.img5 {
+  box-shadow: 0 1px 2px #0003;
+  width: 100%;
+  /* margin-bottom: -400px; */
+    
+}
+
+.swiper {
+  height: 500px;
+  
+
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .swiper {
+    height: 270px;
+  }
+}
+
+
+.swiper-button-next{
+    margin-right: 450px;
+    margin-top: -135px;
+}
+
+.swiper-button-prev{
+    margin-left: 450px;
+    margin-top: -135px;
+}
+
+.swiper-slide:hover {
+  transform: scale(1.01 );
+}
+
+
+  .project-img {
+    width: 500px;
+    height: 500px;
+    
+  }
+
+
+  
+
+
+
+  
+
+</style>
+</html>
