@@ -1,5 +1,6 @@
 body {
     background-color: #003B5D;
+    font-family: inter, sans-serif;
 }
 
 .parent {
@@ -15,11 +16,12 @@ body {
 }
 
 .div1>img {
-    max-height: 500px;
+    max-height: 530px;
 }
 
 .div2 {
     grid-area: 1 / 2 / 2 / 3;
+    padding-left: 0px;
 }
 
 .div2>img {
@@ -28,10 +30,11 @@ body {
 
 .div3 {
     grid-area: 2 / 2 / 3 / 3;
+    padding-right: 450px;
 }
 
 .div3>img {
-    max-height: 250px;
+    max-height: 265px;
 }
 
 main {
@@ -45,12 +48,13 @@ main>h2 {
 }
 
 .menu-filtro {
-    position: fixed;
+    position: flex;
     right: 0;
     /* top: 40%; */
     bottom: 0;
-    width: 200px;
+    width: 300px;
     margin-right: 20px;
+
 }
 
 .menu-direito {
@@ -58,8 +62,8 @@ main>h2 {
 }
 
 .menu-direito>li {
-    color: white;
-    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
 }
 
 .menu-direito>li>a {
@@ -69,10 +73,52 @@ main>h2 {
     text-decoration: none;
     border-style: solid;
     border-width: 1px 0px;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .menu-direito>li>a:hover {
     background-color: #555;
     color: white;
 }
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#txtBusca{
+    float:left;
+    background-color: #2E2E2E;
+    padding-left:5px;
+    font-size:18px;
+    height:32px;
+    width: 250px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 0 none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+  }
+
+  #btnBusca {
+    height: 15px;
+    width: 15px;
+    margin-top: 12px;
+    margin-right: 16px;
+  }
+
+
+  #divBusca{
+    background-color:#2E2E2E;
+    /* border:solid 1px; */
+    border-radius:20px;
+    width: 260px;
+    height: 40px;
+    display: flex;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
