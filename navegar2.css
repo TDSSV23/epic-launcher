@@ -34,13 +34,13 @@ body {
     max-height: 250px;
 }
 
-main {
+.main {
     margin-top: 5%;
     margin-left: 5%;
     width: 80%;
 }
 
-main>h2 {
+.main h2 {
     color: #B1B1B1;
 }
 
