@@ -1,0 +1,124 @@
+body {
+    background-color: #003B5D;
+    font-family: inter, sans-serif;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.div1>img {
+    max-height: 530px;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    padding-left: 0px;
+}
+
+.div2>img {
+    max-height: 250px;
+}
+
+.div3 {
+    grid-area: 2 / 2 / 3 / 3;
+    padding-right: 450px;
+}
+
+.div3>img {
+    max-height: 265px;
+}
+
+.main {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 80%;
+}
+
+.main h2 {
+    color: #B1B1B1;
+}
+
+.menu-filtro {
+    position: flex;
+    right: 0;
+    /* top: 40%; */
+    bottom: 0;
+    width: 300px;
+    margin-right: 20px;
+
+}
+
+.menu-direito {
+    list-style-type: none;
+}
+
+.menu-direito>li {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.menu-direito>li>a {
+    display: block;
+    color: #B1B1B1;
+    padding: 16px 2px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px 0px;
+    font-size: 20px;
+}
+
+.menu-direito>li>a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#txtBusca{
+    float:left;
+    background-color: #2E2E2E;
+    padding-left:5px;
+    font-size:18px;
+    height:32px;
+    width: 250px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 0 none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+  }
+
+  #btnBusca {
+    height: 15px;
+    width: 15px;
+    margin-top: 12px;
+    margin-right: 16px;
+  }
+
+
+  #divBusca{
+    background-color:#2E2E2E;
+    /* border:solid 1px; */
+    border-radius:20px;
+    width: 260px;
+    height: 40px;
+    display: flex;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
