@@ -1,79 +1,1037 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
   <title>Epic Launcher Store</title>
-  <link rel="icon" href="./Figma/logo (1).png">
-  <link href="style.css" rel="stylesheet">
+  <link rel="icon" href="./Figma2/logo (1).png">
 </head>
+
+
 <body>
-  
-  <nav>
-    <img class="logo" src="Figma/logo (1).png">
-    <ul class="list1">
-      <li class="line"><a href="#">STORE</a></li>
-      <li class="line"><a href="#">DISTRIBUIÇÃO</a></li>
-      <li class="line"><a href="#">AJUDA</a></li>
-      <li>│</li>
-      <li class="line"><a href="#">UNREAL ENGINE</a></li>
-    </ul>
+    <!-- /* NAVEGAR HEADER */ -->
+    <header>
+        <img src="./imgs/logep.png" class="logo">
+        <div class="caua">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+               <li><a href="#news">DISTRIBUIÇÃO</a></li>
+               <li class="dropdown">
+                 <a href="javascript:void(0)" class="dropbtn">CATEGORIAS</a>
+                 <div class="dropdown-content">
+                   <a href="#">FPS</a>
+                   <a href="#">Ação e Aventura.</a>
+                   <a href="#">RPG</a>
+                   <a href="#">Casual</a>
+                   <li><a href="#">|</a></li>
+                   <li><a href="#news">UNREAL ENGINE</a></li>
+                 </div>
+               </li>
+             </ul>
+           </div>
+
+<!-- BOTÃO ENTRAR -->
+
+<div class="log">
+    <a href="entrar.html"><button class="btn"> ENTRAR
+    </button></div></a>
+
+        </header>
     
-   <ul class="list2">
-  
-<li class="line"><a href="#">ENTRAR</a></li>
-<li class="line" id="bx"><a href="#">BAIXAR EPIC LAUCHER</a></li>
-   </ul>
-  </nav>
+<!-- JOGOS LATERAL -->
 
-<div class="barra">
-  <div id="divBusca">
-    <input type="text" id="txtBusca" placeholder="Pesquisar Jogo"/>
-    <img src="./Figma/lupa.png" id="btnBusca" alt="Buscar"/>
-  </div>
 
-<div class="list3">
-<ul>
-  <li class="line"><a href="#">Descobrir</a></li>
-  <li class="line"><a href="#">Navegar</a></li>
-  <li class="line"><a href="#">Novidades</a></li>
-</ul>
-</div>
-</div>
 
-<!-- <div class="primavera">
 
-<img id="primavera" src="./Figma/Primavera.png">
-<a href="#"><img id="eco" src="./Figma/Economize.png"></a>
-</div> -->
 
-<div class="flex-container-games">
+        <!-- /* BARRA DE PESQUISA */ -->
+        <div class="all">
 
-  <div class="cs-go">
-      <img id="cs-image" class="img-flex-games" src="./Figma/Counter-Strike._Global_Offensive.jpg">
-      <p class="cs-text">Counter Strike Global Offensive</p>
-  </div>
-  
-  <div class="rl">   
-     <img id="rl-image" class="img-flex-games" src="./Figma/rocket league.jpg">
-     <p id="rl-text" class="item">Rocket League</p>
-  </div>
-  <div class="vava">
-    <img id="vava-image" class="img-flex-games" src="./Figma/valorant.jpg" alt="">
-    <p id="vava-text" class="item">Valorant</p>
-  </div>
-  <div class="gta">
-    <img id="gta-image" class="img-flex-games" src="./Figma/gta.png" alt="">
-    <p id="gta-text" class="item">Grand Theft Auto V</p>
+            <div class="fm">
+                <form class="form">
+                    <button>
+                        <svg width="17" height="16" fill="none" role="img" aria-labelledby="search">
+                            <path d="M7.667 12.667A5.333 5.333 0 107.667 2a5.333 5.333 0 000 10.667zM14.334 14l-2.9-2.9" stroke="currentColor" stroke-width="1.333" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                    <input class="input" placeholder="Type your text" required="" type="text">
+                    <button class="reset" type="reset">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+            <div class="f1">
+            <div class="felipe">
+            <ul>
+                
+                <li><a href="#home">DESCOBRIR</a></li>
+                <li><a href="navegar.html">NAVEGAR</a></li>
+                <li><a href="novidades.html">NOVIDADES</a></li>
+            
+              </ul>
+            </div>
+            </div>
+            </div>
+        
+            <!-- JOGOS LATERAIS -->
+
+            <BR><BR>
+
+            <div class="full">
+              <!-- <div class="jgla">    <img src="./imgs/jglateral.png" width="210px" height="70"> </div> -->
+               <div class="jgla1">    <img src="./imgs/jglateral1.png" width="210px" height="70"> </div>
+              <div class="jgla2">    <img src="./imgs/jglateral2.png" width="210px" height="70"> </div> 
+                <div class="jgla3">    <img src="./imgs/jglateral3.png" width="210px" height="70"> </div> 
+                <div class="jgla4">    <img src="./imgs/jglateral4.png" width="210px" height="70"> </div>  
+              <!-- <div class="jgla5">    <img src="./imgs/jglateral5.png" width="210px" height="70"> </div> 
+              </div>  -->
+
+
+
+
+
+
+<!-- CAROUSEL -->
+
+<div class="car">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./imgs/fifa.jpeg" alt="Foto 01" class="img5">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./imgs/fortinte (1).jpg" alt="Foto 02" class="img5">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./imgs/valorant.jpg" alt="Foto 03" class="img5">
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+   
+    </div>
+    </main>
     
-  </div>
-  <div class="mine">
-    <img id="mine-image" class="img-flex-games" src="./Figma/mc.png" alt="">
-    <p id="mine-text" class="item">Minecraft</p>  
-  </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    </div>
+    
+     
 
-</div>
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
 
-</body>
+
+
+<!-- DESTAQUES  -->
+
+    <div class="container">
+        <div class="GP">
+        <p>Destaques</p>
+        </div>
+        
+        <div class="generos">
+            <div class="gallery">
+                <div class="gallery-item">
+                    <link href="#"><img src="./imgs/The Settlers.png" alt="jogo1" width="250px" height="px"></link>
+                </div>
+                
+                <div class="gallery-item">
+                        <link href="#"><img src="./imgs/GTA.png" id="jogo2" alt="jogo2" width="250px" height=""></link>
+                </div>
+                
+                <div class="gallery-item">
+                        <link href="#"><img src="./imgs/Dead Space.png" id="jogo3" alt="jogo3" width="258px" height=""></link>
+                </div>
+                
+                <div class="gallery-item">
+                        <link href="#"><img src="./imgs/Destiny.png" id="jogo4" alt="jogo4" width="250px" height=""></link>
+                </div>
+        
+                
+            </div>
+        </div>
+        </div>
+
+
+        <br>
+    <div class="container-home3">
+       
+        
+        <div class="gallery-home3">
+            <div class="gallery-item-home3">
+                <img src="https://cdn2.unrealengine.com/thumbnail-cinematic-1920x1080-fe7e748660c2.jpg"
+                    alt="Catálago Jogo 1" width="650px" height="350px">
+                <p><b>FORTNITE</b> 
+                <br>
+                <p> Chame seus amigos e mergulhe no Fortnite, um jogo massivo de combate entre 100 jogadores da Epic Games que combina saque, criação, tiroteio e caos. O resultado é uma experiência online competitiva e totalmente imprevisível que só fica maior e mais radical a cada temporada.</p>
+               <br>
+               <b href="#">Ponha na lista de desejos</b></a>
+            </div>
+
+            <div class="gallery-item-home3">
+                <img src="https://cdn.akamai.steamstatic.com/steam/apps/1811260/capsule_616x353.jpg?t=1679504733"
+                    alt="Catálago Jogo 2" width="650px" height="350px">
+                <p><b>EA SPORTS™ FIFA 23</b></p>
+                <p>FIFA 23 traz o Jogo de Todo Mundo aos gramados com a tecnologia HyperMotion2, a FIFA World Cup™ masculina e feminina (lançamento durante a temporada), times femininos, recursos de crossplay* e muito mais.</p>        
+                <br>
+                <br>
+                <R$89,70><del>R$299,99</del>&nbsp;&nbsp; R$89,70</p>
+            </div>
+        </div>
+    </div>
+    
+       
+        </body>
+
+
+        <footer>
+
+          
+        
+    <main id="container3" class="pac">
+        
+      <div class="dots">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+      </div>
+      <div class="dots2">
+          <div class="dot2"></div>
+          <div class="dot2"></div>
+          <div class="dot2"></div>
+          <div class="dot2"></div>
+          <div class="dot2"></div>
+          <div class="dot2"></div>
+          <div class="dot2"></div>
+          <div class="dot2"></div>
+          <div class="dot2"></div>
+          <div class="dot2"></div>
+      </div>
+      <div class="circle"></div>
+  </main>
+
+
+
+        </footer>
+
+
+        <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #003B5D;
+}
+
+
+header{
+    background-color: #2E2E2E;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+ }
+/* NAVEGAR HEADER */
+
+ .logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 6px;
+    margin-top: 5px;
+  }
+  
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: dodgerblue;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: dodgerblue;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.caua{
+    margin:0 auto;
+    margin-left: 80px;
+    margin-top: -52px;
+}
+
+/* BARRA DE PESQUISA */
+
+.felipe{
+    margin-top: -42px;
+    margin-left: 215px;
+}
+
+.fm{
+    margin-top: 85px;
+    margin-left: 10px;
+}
+
+ .all{
+    margin-left: 80px;
+    margin-top: -0px;
+    position:static;
+ }
+
+ .form button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+  }
+  /* styling of whole input container */
+  .form {
+    --timing: 0.3s;
+    --width-of-input: 200px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg,#fff);
+  }
+  /* styling of Input */
+  .input {
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+  }
+  /* styling of animated border */
+  .form:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+  }
+  /* Hover on Input */
+  .form:focus-within {
+    border-radius: var(--after-border-radius);
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  /* here is code of animated border */
+  .form:focus-within:before {
+    transform: scale(1);
+  }
+  /* styling of close button */
+  /* == you can click the close button to remove text == */
+  .reset {
+    border: none;
+    background: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  /* close button shown when typing */
+  input:not(:placeholder-shown) ~ .reset {
+    opacity: 1;
+    visibility: visible;
+  }
+  /* sizing svg icons */
+  .form svg {
+    width: 17px;
+    margin-top: 3px;
+  }
+
+
+
+  /* CAROUSEL */
+
+
+.car{
+    margin-left: -580px;
+    margin-top: -280PX;
+   
+    
+  
+}
+
+
+
+span {
+  font-size: x-large;
+  
+}
+
+.img5 {
+  box-shadow: 0 1px 2px #0003;
+  width: 100%;
+    
+}
+
+.swiper {
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .swiper {
+    height: 270px;
+  }
+}
+
+
+.swiper-button-next{
+    margin-right: 510px;
+    margin-top: -100px;
+}
+
+.swiper-button-prev{
+    margin-left: 610px;
+    margin-top: -100px;
+}
+/* 
+.swiper-slide:hover {
+  transform: scale(1.01 );
+} */
+
+
+.nov{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 215px;
+    margin-bottom: -30px;
+    position: absolute;
+    display: flex;
+}
+
+footer{
+    background-color: black;
+    height: 60px;
+    position: absolute;
+   
+    left: 0;
+    right: 0;
+    bottom:  0;
+    
+  }
+
+  
+.project-img {
+    width: 600px;
+    height: 400px;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+
+ /* BOTÃO ENTRAR */
+
+ .btn {
+ width: 6.5em;
+ height: 2.3em;
+ margin: 0.5em;
+ background: dodgerblue;
+ color: white;
+ border: none;
+ border-radius: 0.625em;
+ font-size: 20px;
+ font-weight: bold;
+ cursor: pointer;
+ position: relative;
+ z-index: 1;
+ overflow: hidden;
+}
+
+button:hover {
+ color: black;
+}
+
+button:after {
+ content: "";
+ background: white;
+ position: absolute;
+ z-index: -1;
+ left: -20%;
+ right: -20%;
+ top: 0;
+ bottom: 0;
+ transform: skewX(-45deg) scale(0, 1);
+ transition: all 0.5s;
+}
+
+button:hover:after {
+ transform: skewX(-45deg) scale(1, 1);
+ -webkit-transition: all 0.5s;
+ transition: all 0.5s;
+}
+   
+.log{
+   margin-top: -56px;
+   margin-left: 1100px;
+}
+
+
+/* JOGOS LATERAIS */
+
+
+
+
+
+
+
+
+/* destaques */
+
+.GP {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 3rem;
+    color: #fff;
+  }
+
+  /* .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    max-width: 1100px;
+    margin: auto;
+    
+  } */
+
+@media (max-width: 1100px) {
+    .container {
+        align-items: center;
+    }
+}
+
+.titulo {
+    margin-left: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    color: white;
+}
+
+
+.gallery-item:hover {
+    transform: scale(1.01);
+}
+
+
+.container{
+    margin-top: -450px;
+    margin-left: 50px
+}
+
+
+/* JOGOS BARRRA LATERAL */
+
+.jgla{
+  
+  margin-left: 900px;
+  /* margin-top: 60px; */
+  /* margin-bottom: -30px; */
+}
+
+ .jgla1{
+  margin-left: 900px;
+  margin-bottom: -0px;
+}
+
+.jgla2{
+  margin-left: 900px;
+  
+} 
+
+
+ .jgla3{
+  margin-left: 900px;
+
+}  
+
+.jgla4{
+  margin-left: 900px;
+  
+}  
+
+
+
+.full{
+  margin-top: 0px;
+}
+
+/* .jgla5{
+  margin-left: 900px;
+  
+}  */
+
+/* home 3 */
+
+
+.container-home3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin: 0 auto;
+    padding: 20px 10px; */
+}
+
+.container-home3 h1 {
+    margin-left: 100px;;
+}
+
+.gallery-home3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    color: white;
+    font-family: arial;
+}
+
+.gallery-item-home3 {
+    width: 100%;
+    max-width: 500px;
+}
+
+.gallery-item-home3 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery-item-home3 a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* footer */
+
+
+
+footer{
+  background-color: #2E2E2E;
+    height: 140px;
+    position: relative;
+   bottom: 0px;
+   left: 0px;
+   right: 0px;
+}
+
+
+  /* ANIMATION FOOTER */
+
+
+  .circle {
+  position: relative;
+  left: -100px;
+  width: 0;
+  height: 0;
+  border: 50px solid #FDD835;
+  border-radius: 50%;
+  border-right-color: transparent;
+  animation: move 5s linear 0s infinite normal forwards;
+}
+
+.circle:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 0;
+  height: 0;
+  border: 50px solid #FDD835;
+  border-radius: 50%;
+  border-right-color: transparent;
+  animation: chomp1 .25s ease-in-out 0s infinite normal forwards;
+}
+
+.circle:after {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 0;
+  height: 0;
+  border: 50px solid #FDD835;
+  border-radius: 50%;
+  border-right-color: transparent;
+  animation: chomp2 .25s ease-in-out 0s infinite normal forwards;
+}
+
+.loader {
+  position: relative;
+  top: 50px;
+  width: 300px;
+  height: 0px;
+  border-top: 10px dotted black;
+  animation: loader_4013 5s ease-in-out 0s infinite normal forwards;
+}
+
+.dots {
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background: #1E88E5;
+  animation: dot1 5s linear 0s infinite none normal;
+}
+
+.dot:nth-child(1) {
+  animation-delay: 0s
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.25s
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.5s
+}
+
+.dot:nth-child(4) {
+  animation-delay: 0.75s
+}
+
+.dot:nth-child(5) {
+  animation-delay: 1s
+}
+
+.dot:nth-child(6) {
+  animation-delay: 1.25s
+}
+
+.dot:nth-child(7) {
+  animation-delay: 1.5s
+}
+
+.dot:nth-child(8) {
+  animation-delay: 1.75s
+}
+
+.dot:nth-child(9) {
+  animation-delay: 1.9s
+}
+
+.dot:nth-child(10) {
+  animation-delay: 2.1s
+}
+
+.dots2 {
+  position: relative;
+  top: 50px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot2 {
+  position: relative;
+  left: -10px;
+  width: 10px;
+  height: 10px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background: #F44336;
+  opacity: 0;
+  animation: dot2 5s linear 0s infinite none normal;
+}
+
+.dot2:nth-child(10) {
+  animation-delay: 2.5s
+}
+
+.dot2:nth-child(9) {
+  animation-delay: 2.75s
+}
+
+.dot2:nth-child(8) {
+  animation-delay: 3.0s
+}
+
+.dot2:nth-child(7) {
+  animation-delay: 3.25s
+}
+
+.dot2:nth-child(6) {
+  animation-delay: 3.5s
+}
+
+.dot2:nth-child(5) {
+  animation-delay: 3.75s
+}
+
+.dot2:nth-child(4) {
+  animation-delay: 4.0s
+}
+
+.dot2:nth-child(3) {
+  animation-delay: 4.25s
+}
+
+.dot2:nth-child(2) {
+  animation-delay: 4.5s
+}
+
+.dot2:nth-child(1) {
+  animation-delay: 4.6s
+}
+/* #F44336;, #1E88E5, #FDD835; */
+@keyframes chomp1 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes chomp2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-45deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes move {
+  0%, 100% {
+    left: -100px;
+  }
+
+  0%, 48% {
+    transform: rotateY(0deg);
+  }
+
+  50%, 100% {
+    transform: rotateY(180deg);
+  }
+
+  50% {
+    left: 100%;
+  }
+}
+
+@keyframes loader_4013 {
+  0%, 100% {
+    border-top: 10px dotted #1E88E5;
+  }
+
+  0%, 48% {
+    border-top: 10px dotted #1E88E5;
+  }
+
+  50%, 100% {
+    border-top: 10px dotted #F44336;
+  }
+
+  50% {
+    border-top: 10px dotted #F44336;
+  }
+}
+
+@keyframes dot1 {
+  0%,4% {
+    background: #1E88E5;
+    opacity: 1;
+  }
+
+  5%,94% {
+    background: #F44336;
+    opacity: 0;
+  }
+
+  95%,100% {
+    background: #1E88E5;
+    opacity: 1;
+  }
+}
+
+
+
+        </style>
+
+
+
 </html>

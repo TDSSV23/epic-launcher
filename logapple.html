@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+
+        <img src="./imgs/logep.png" class="logo">
+        <div class="caua">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+               <li><a href="#news">DISTRIBUIÇÃO</a></li>
+               <li class="dropdown">
+                 <a href="javascript:void(0)" class="dropbtn">CATEGORIAS</a>
+                 <div class="dropdown-content">
+                   <a href="#">FPS</a>
+                   <a href="#">Ação e Aventura.</a>
+                   <a href="#">RPG</a>
+                   <a href="#">Casual</a>
+                   <li><a href="#">|</a></li>
+                   <li><a href="#news">UNREAL ENGINE</a></li>
+                 </div>
+               </li>
+             </ul>
+           </div>
+
+
+           <div class="log">
+            <a href="registre.html"><button class="btn"> REGISTRE
+            </button></div></a>
+
+    </header>
+
+    
+    <form>
+        <img src="apple.png" class="emailft">
+        <h3>Entrar com apple</h3>
+        <input id="email" type="email" name="email" placeholder="Seu E-mail...">
+        <input id="password" type="password" name="senha" placeholder="Sua senha...">
+
+        <input type="submit" name="acao" value="Enviar">
+      <div class="barra">
+        <hr class="hr1">
+        <p class="tbm">Entre também com</p>
+        <hr class="hr2">
+    </div>
+    <div class="all">
+        <a href="logfc.html"><div class="face">
+    <img src="face.png">
+        </div></a>
+        
+       <A href="loggoogle.html"> <div class="google">
+            <img src="gogle.png">
+        </div></A>
+    
+        <a href="logxbox.html"><div class="xbox">
+            <img src="xbox.png">
+        </div></a>
+    
+        <a href="logsteam.html"><div class="steam">
+            <img src="steam.png">
+        </div></a>
+    
+        <a href="logapple.html"><div class="apple">
+            <img src="apple.png">
+        </div></a>
+    </div>
+        </form>
+        
+
+
+</body>
+
+
+
+<script>
+            
+    var email = document.getElementById('email');
+    
+    email.addEventListener('focus',()=>{
+        email.style.borderColor = "#4A5F6A";
+    });
+    
+    email.addEventListener ('blur',()=>{
+        email.style.borderColor = "#ccc";
+    });
+    
+    var password = document.getElementById('password');
+    
+    password.addEventListener('focus',()=>{
+        password.style.borderColor = "#4A5F6A";
+    });
+    
+    password.addEventListener ('blur',()=>{
+        password.style.borderColor = "#ccc";
+    });
+    
+    
+    
+</script>
+
+
+<style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #003B5D;
+}
+
+
+header{
+    background-color: #2E2E2E;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+ }
+
+
+ form{
+            
+            background-color: #2E2E2E;
+            max-width: 500px;
+            width: 420px;
+            height: 470px;
+            padding: 20px;
+            position: relative;
+            margin-top: 390px;
+            margin-left: 640px;
+            transform: translate(-50%, -50%);
+        }
+        form h3{
+            text-align: center;
+          color: white;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+            
+            
+        }
+        
+        form input[type=email],
+        form input[type=password] {
+            
+            width: 100%;
+            height: 45px;
+            border: 1px solid #ccc;
+            padding-left: 10px;
+            margin: 10px 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        form input[type=submit] {
+            
+            width: 100%;
+            height: 40px;
+            cursor: pointer;
+            background: blue;
+            color: white;
+            border: 0;
+            border-radius: 20px;
+            transition: 1s;
+            margin-top: 10px;
+        }
+        
+        form input[type=submit]:hover {
+            background-color: grey;
+        }
+        form input[type=email]:focus {
+            
+            outline: 0;
+            
+        }
+        
+        form input[type=password]:focus {
+            
+            outline: 0;
+        }
+
+      .emailft{
+      
+     width: 50px;
+     height: 50px;
+     margin-left: 160px;
+
+      }
+
+      
+      hr{
+        width: 100px;
+      }
+
+      .hr1{
+margin-top: 60px;
+      }
+
+      .hr2{
+margin-top: -10px;
+margin-left: 275px;
+      }
+
+      .tbm{
+        color: white;
+        text-align: center;
+        margin-top: -10px;
+
+      }
+
+
+      .face{
+     
+      margin-top: 130px;
+     
+
+      }
+
+      .google{
+margin-top: -45px;
+    margin-left: 85px;
+
+      }
+
+
+      .xbox{
+text-align: center;
+margin-top: -45px
+
+
+
+      }
+
+      .steam{
+margin-top: -45px;
+margin-left: 260px;
+
+      }
+
+
+      .apple{
+margin-top: -45px;
+margin-left: 330px;
+
+      }
+
+      .all{
+        margin-top: -80px;
+      }
+
+
+      /* NAV BAR */
+
+      .logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+    margin-top: 5px;
+  }
+  
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: dodgerblue;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: dodgerblue;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.caua{
+    margin:0 auto;
+    margin-left: 80px;
+    margin-top: -42px;
+}
+
+
+/* BOTÃO ENTRAR */
+
+.btn {
+ width: 6.5em;
+ height: 2.3em;
+ margin: 0.5em;
+ background: dodgerblue;
+ color: white;
+ border: none;
+ border-radius: 0.625em;
+ font-size: 20px;
+ font-weight: bold;
+ cursor: pointer;
+ position: relative;
+ z-index: 1;
+ overflow: hidden;
+}
+
+button:hover {
+ color: black;
+}
+
+button:after {
+ content: "";
+ background: white;
+ position: absolute;
+ z-index: -1;
+ left: -20%;
+ right: -20%;
+ top: 0;
+ bottom: 0;
+ transform: skewX(-45deg) scale(0, 1);
+ transition: all 0.5s;
+}
+
+button:hover:after {
+ transform: skewX(-45deg) scale(1, 1);
+ -webkit-transition: all 0.5s;
+ transition: all 0.5s;
+}
+   
+.log{
+   margin-top: -56px;
+   margin-left: 1100px;
+}
+
+</style>
+
+</html>
