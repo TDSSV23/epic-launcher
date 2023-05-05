@@ -125,15 +125,16 @@
     color: #fff;
   }
 
-  /* .container {
+   .container {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    max-width: 1100px;
+    /* max-width: 1100px; */
     margin: auto;
+    width: 1400px;
     
-  } */
+  } 
 
 @media (max-width: 1100px) {
     .container {
