@@ -120,10 +120,18 @@
 .container {
     color: white;
     font-size: 20px;
+    margin-top: 10px;
+    align-items: center;
 }
 
 
 .gallery-item {
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
+}
+
+.jvd {
+  display: flex;
+  margin-top: 10px;
 }
