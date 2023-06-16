@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Launcher Store</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cobra-velha.css">
+    <script src="js/velha.js"></script>
+    <link rel="icon" href="./Figma/logo (1).png">
+</head>
+<body>
+
+    <!--Header/Nav-->
+    <nav>
+        <img class="logo" src="Figma/logo (1).png">
+        <ul class="list1">
+          <li class="line"><a href="#">HOME</a></li>
+          <li class="line"><a href="#">DISTRIBUIÇÃO</a></li>
+          <li class="line"><a href="#">AJUDA</a></li>
+          <li>│</li>
+          <li class="line"><a href="#">PERFIL</a></li>
+        </ul>
+        
+       <ul class="list2">
+      
+    <li class="line"><a target="_blank" href="../cadastro/entrar.html">ENTRAR</a></li>
+    <li class="line" id="bx"><a href="#">BAIXAR EPIC LAUCHER</a></li>
+       </ul>
+      </nav>
+
+    <!--Barra de Pesquisa-->
+    <div class="barra">
+      <div id="divBusca">
+        <input type="text" id="txtBusca" placeholder="Pesquisar Jogo"/>
+        <img src="./Figma/lupa.png" id="btnBusca" alt="Buscar"/>
+      </div>
+    
+    <!--Lista de Funções (Barra)-->
+    <div class="list3">
+    <ul>
+      <li class="line" id="descobrir"><a href="index.html">Descobrir</a></li>
+      <li class="line"><a href="#">Navegar</a></li>
+      <li class="line"><a href="../novidades/novidades.html">Novidades</a></li>
+    </ul>
+    </div>
+    </div>
+
+    <!-- Jogo Da Velha -->
+    
+    <section class="game">
+      <input type="button" value="João" onclick="joao()">
+      <input type="button" value="Otavio" onclick="otavio()">
+      <input type="button" value="Amanda" onclick="amanda()">
+      <input type="button" value="Yasmin" onclick="yasmin()">
+      <input type="button" value="Gustavo" onclick="gustavo()">
+      <input type="button" value="Lucas" onclick="lucas()">
+    </section>
+    <div id="game-card"></div>
+    
+</body>
+</html>
